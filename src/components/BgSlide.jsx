@@ -15,7 +15,7 @@ const BgSlide = () => {
         {/* title */}
         <h1 className='mb-12 sm:mb-12 text-center text-2xl md:text-3xl lg:text-4xl mt-3 font-semibold bg-linear-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent'>Remove Background With High <br/> Quality and Accuracy </h1>
 
-        <div className='relative w-full max-w-3xl overflow-hidden m-auto rounded-xl'>
+        <div className='relative w-full max-w-3xl lg:max-w-xl xl:max-w-xl  overflow-hidden m-auto rounded-xl'>
             {/* background image */}
             <img src={assets.image_w_bg} className="w-full h-full " style={{clipPath:`inset(0 ${100.2-sliderPostion}% 0 0)`}} alt="" />
 
