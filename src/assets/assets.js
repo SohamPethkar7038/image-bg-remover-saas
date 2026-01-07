@@ -39,15 +39,43 @@ export const testimonialsData = [
         text: "I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.",
         author: "Richard Nelson",
         image: profile_img_1,
-        jobTitle:'Web Developer'
+        jobTitle: "Web Developer"
     },
     {
         id: 2,
         text: "I've been using bg.removal for nearly 6 months, I had a fantastic experience. The quality is top-notch. I recommend others to try this app.",
         author: "Donald Jackman",
         image: profile_img_2,
-        jobTitle:'UI Deginer'
+        jobTitle: "UI Designer"
     },
+    {
+        id: 3,
+        text: "bg.removal helped me save hours of manual editing. The results are clean and professional, even for complex images.",
+        author: "Sophia Martinez",
+        image: profile_img_1,
+        jobTitle: "Graphic Designer"
+    },
+    {
+        id: 4,
+        text: "As a product manager, I needed a fast and reliable solution. bg.removal fits perfectly into our workflow.",
+        author: "Arjun Mehta",
+        image: profile_img_2,
+        jobTitle: "Product Manager"
+    },
+    {
+        id: 5,
+        text: "The accuracy of background removal is impressive. It works smoothly on both desktop and mobile.",
+        author: "Emily Carter",
+        image: profile_img_1,
+        jobTitle: "Digital Marketer"
+    },
+    {
+        id: 6,
+        text: "bg.removal is a must-have tool for content creators. Simple UI, fast processing, and excellent output quality.",
+        author: "Karan Shah",
+        image: profile_img_2,
+        jobTitle: "Content Creator"
+    }
 ];
 
 export const plans = [
