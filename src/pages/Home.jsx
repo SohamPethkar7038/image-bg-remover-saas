@@ -5,6 +5,7 @@ import Header from '../components/Header.jsx'
 import Steps from '../components/Steps.jsx'
 import BgSlide from '../components/BgSlide.jsx'
 import Testimonal from '../components/Testimonal.jsx'
+import Footer from '../components/Footer.jsx'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Steps/>
       <BgSlide/>
       <Testimonal/>
+      {/* <Footer/> */}
     </div>
   )
 }
