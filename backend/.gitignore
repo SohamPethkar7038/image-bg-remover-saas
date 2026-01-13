@@ -1,0 +1,97 @@
+############################
+# Logs
+############################
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+############################
+# Dependency directories
+############################
+node_modules/
+**/node_modules/
+
+############################
+# Build outputs
+############################
+dist/
+build/
+out/
+dist-ssr/
+**/dist/
+**/build/
+
+############################
+# Environment variables
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# OS files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Editor / IDE files
+############################
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+############################
+# Cache / temp files
+############################
+.cache/
+.tmp/
+temp/
+*.local
+
+############################
+# Coverage & test reports
+############################
+coverage/
+.nyc_output/
+
+############################
+# Frontend specific
+############################
+.eslintcache
+.vite/
+.next/
+.nuxt/
+
+############################
+# Backend specific
+############################
+uploads/
+*.pid
+*.seed
+*.pid.lock
+
+############################
+# Package manager
+############################
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+############################
+# Optional lockfiles (keep ONE only)
+############################
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
