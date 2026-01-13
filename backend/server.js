@@ -1,12 +1,17 @@
 import express from 'express'
-import { configDotenv } from 'dotenv'
+import dotenv from "dotenv";
 import cors from 'cors'
+import connectDB from './configs/Database.js'
 
 // app congfig
 
 const PORT=process.env.PORT || 4000
-
+dotenv.config();
 const app=express()
+
+
+
+
 
 
 // initialize middlewares
@@ -23,3 +28,5 @@ app.get('/',(req,res)=>{
 app.listen(PORT,()=>{
     console.log(`server is running on port ${PORT}`);
 })
+
+await connectDB()
